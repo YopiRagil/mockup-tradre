@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Poppins:wght@600&display=swap');
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: black;;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#header-nav {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  padding: 0 9vw;
+}
+.popinTitle{
+  font-size: calc(7.5vmin);
+  font-family: 'Hind', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+.popin{
+  font-family: 'Hind', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+.hind {
+  font-family: 'Hind', sans-serif;
+}
+.bg-image-ali  {
+  background-image: url("./assets/pictures/ali-morshedlou.png");
+  background-size: inherit;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  width: 100%;
+  height: 70vh;
+}
+.font-normal {
+  font-size: calc(2.4vmin);
+  font-family: 'Hind', sans-serif;
+}
+.font-more {
+  font-size: calc(3vmin);
+  font-family: 'Hind', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+.bg-gray {
+  background-color: rgb(23, 23, 23);
+}
+.bg-image-breno  {
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-right-radius: 50px;
+  max-width: 95%;
+  min-height: 45vh;
+}
+.bg-andreas {
+  background-image: url("./assets/pictures/andreas-ronningen-8RMP683VW-o-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: top right;
+  max-width: 100%;
+}
+.image-investor {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 45vh;
+  opacity: 0.7;
+  background-position:  right;
+  margin-bottom: 10px;
+}
+.text-date {
+  font-size: calc(2vmin);
+  font-family: 'Hind', sans-serif;
+  font-weight: lighter;
+}
+.copy-right{
+  font-size: calc(2.5vmin);
+  font-family: 'Hind', sans-serif;
+  font-weight: lighter;
+}
+.title-picture {
+  font-size: calc(2.5vmin);
+}
+.icon-forinvest-bottom {
+  font-size: 2.5vmin;
+}
+.lets-build {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+  align-items: center;
+  align-content: center;
+}
+.h1{
+ font-family: 'Hind', sans-serif;
+}
+.h2{
+ font-family: 'Poppins', sans-serif;
+}
+.button-texts {
+  font-family: 'Hind', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 3vmin;
+}
+.text-menu-footer {
+  font-family: 'Hind', sans-serif;
+  font-size: 2.5vmin;
+  min-width: 110px;
+  text-align: center;
+  font-weight: lighter;
+  color: white;
+}
+.link-hide-uderline{
+  text-decoration: none;
+}
+.text-menu-footer:hover {
+  color: #00b4bc;
+}
+.blue-color{
+  color: #00b4bc;
+}
+.small-text {
+  font-size: 2.5vmin;;
+}
